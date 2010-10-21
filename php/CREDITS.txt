@@ -1,0 +1,5 @@
+We are thankful to the authors for providing the library 
+that was helpful while developing this application.
+
+1. MDB2 - BSD license - http://pear.php.net/package/MDB2/
+2. Smarty - LGPL - http://www.smarty.net/
