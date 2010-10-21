@@ -12,8 +12,7 @@ include_once dirname(__FILE__) . '/src/controllers/Controller.php';
 class InstallController extends Controller {
 	
 	function process(Request $request) {
-		$this->query("CREATE TABLE fileshare_file (id int auto_increment not null primary key, name varchar(255), type varchar(20), size int) ");
-		$this->query("CREATE TABLE fileshare_filekey (uid varchar(255), fileid int, usecount int, expireson date)");		
+		// $this->query("CREATE TABLE app_table (uid int auto_increment not null primary key, name varchar(255), pwd varchar(50), isactive int(1)))");		
 	}
 	
 }
